@@ -2,7 +2,7 @@ package the.game;
 
 import java.awt.Graphics;
 import java.awt.image.BufferStrategy;
-import java.awt.image.BufferedImage;
+
 
 public class Game implements Runnable{
 
@@ -15,7 +15,7 @@ public class Game implements Runnable{
 	
 	private BufferStrategy bs;
 	private Graphics g;
-	private BufferedImage testImage;
+	
 	
 	public Game(String title, int width, int height){
 		this.width = width;
@@ -32,14 +32,15 @@ public class Game implements Runnable{
 	private void render(){
 		bs = display.getCanvas().getBufferStrategy();
 		if(bs == null){
-			display.getCanvas().createBufferStrategy(2);
+			display.getCanvas().createBufferStrategy(3);
 			return;
 		}
-		g = bs.getDrawGraphics();
+		
 		//Clear Screen
 		
+		//Start Drawing
 	
-		g.drawImage(testImage, 20, 20, null);
+
 		
 		//Stop Drawing
 		bs.show();
