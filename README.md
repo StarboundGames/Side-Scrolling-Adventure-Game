@@ -1,4 +1,4 @@
-Tile.Game
+Top-Down-RPG
 This is a work in progress so it is unfinished. Work on this game is frequent so expect updates. 
-The game does not have a story yet and isn't even functional yet.
-I will put up a playable version on June, 15, 2017 (This date is subject to change)
+I will put up a playable version on Febuary, 21, 2018 (This date is subject to change)
+Due to every member of the team working on this game beining in High School we do not always have enough time to get any work done for the game.
